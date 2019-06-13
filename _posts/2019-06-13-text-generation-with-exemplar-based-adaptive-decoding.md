@@ -8,22 +8,22 @@ type: 'NAACL 2019'
 layout: nil
 ---
 
-#### Goal
+### Goal
 fluency (abstractive) + controlled, realiability (exemplar-based)
 
-#### Idea
+### Idea
 *exemplar-based adaptive decoding*: use exemplars to inform the decoding procedure
 
-#### Method 
+### Method 
 - reparameterize the decoder's parameters with weighted linear sums
 - decoder parameter P = sum(w_i * P_i), where P_i is a predifined parameters matrices. 
 - based on examples, you compute w_i
 - Reduce Parameters: p_i = u_i * v_i (d^2 -> 2d)
 
-#### Contributions
+### Contributions
 - First to propose exemplar-based adaptive decoding
 - evaluated on summarization, data-to-text tasks and showed strong performance
 
-#### Limitations
+### Limitations
 - No direct learning on how to pick right example (possibly using RL?)
 - They only use only one example as a reference
