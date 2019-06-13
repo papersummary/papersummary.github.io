@@ -9,8 +9,10 @@ layout: default
 <section id='content'>
 {% for post in site.posts %}
   <article class='{{ post.type }}'>
-    <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.type %}<code><b>{{ post.type }}</b> {{ post.path }}</code> {% endif %}{{ post.title }}</h2></a>
+    <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{{ post.title }}{% if post.type %}<code><b>{{ post.type }}</b></code> {% endif %}</h2></a>
     <section class='body'>
+      {% if post.pdf %}<a href='{{ post.pdf }}'>[pdf]</a>{% endif %} {% if post.bibtex %}<a href='{{ post.bibtex }}'>[bib]</a>{% endif %}
+      <br><br/>  
       {{ post.content }}
     </section>
   </article>

@@ -541,19 +541,23 @@ code {
   text-decoration: none;
 }
 
-#content a h2 {
+#content  a h2 {
   color: #fff;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
 }
 
-#content a h2 code {
+#content a i {
+  font-size: 20px;
+}
+
+#content  a h2 code {
   float: right;
   font-size: 14px;
 }
 
-#content a h2 code b {
+#content  a h2 code b {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -577,38 +581,38 @@ code {
 }
 
 /* GET */
-#content article.GET a h2 code {
+#content article.EMNLP a h2 code {
   color: #119bdf;
 }
 
-#content article.GET a h2 code b {
+#content article.EMNLP a h2 code b {
   background: #119bdf;
 }
 
 /* POST */
-#content article.POST a h2 code {
+#content article.TACL a h2 code {
   color: #52ce0e;
 }
 
-#content article.POST a h2 code b {
+#content article.TACL a h2 code b {
   background: #52ce0e;
 }
 
 /* PUT */
-#content article.PUT a h2 code {
+#content article.ACL a h2 code {
   color: #e08f10;
 }
 
-#content article.PUT a h2 code b {
+#content article.ACL a h2 code b {
   background: #e08f10;
 }
 
-/* DELETE */
-#content article.DELETE a h2 code {
+/* NAACL */
+#content article.NAACL a h2 code {
   color: #e02a10;
 }
 
-#content article.DELETE a h2 code b {
+#content article.NAACL a h2 code b {
   background: #e02a10;
 }
 
