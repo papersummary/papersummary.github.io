@@ -454,6 +454,7 @@ code {
   width: 240px;
 }
 
+
 #sidebar h1 {
   background: #111;
   font-size: 14px;
@@ -514,11 +515,12 @@ code {
   outline: none;
 }
 
+
 /* References */
 #content {
   padding: 20px;
   padding-left: 260px;
-  max-width: 700px;
+  max-width: 1000px;
 }
 
 #content .control {
@@ -559,7 +561,7 @@ code {
 
 #content  a h2 code {
   float: right;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #content  a h2 code b {
@@ -645,4 +647,19 @@ code {
   display: block;
   padding: 15px;
   white-space: pre;
+}
+
+
+@media only screen and (max-device-width: 600px) {
+  /* define mobile specific styles come here */
+  #sidebar { 
+    width: 120px; 
+  }
+
+  #content {
+    padding: 20px;
+    padding-left: 130px;
+    max-width: 1000px;
+  }
+
 }
