@@ -3,4 +3,4 @@ exclude: ['README.md']
 permalink: ':title'
 highlighter: rouge
 safe: false
-title: 'Papers'
+title: 'NLG Papers'
