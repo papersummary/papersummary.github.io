@@ -606,20 +606,20 @@ code {
 }
 
 /* PUT */
-#content article.ACL a h2 code {
+#content article.NAACL a h2 code {
   color: #e08f10;
 }
 
-#content article.ACL a h2 code b {
+#content article.NAACL a h2 code b {
   background: #e08f10;
 }
 
 /* NAACL */
-#content article.NAACL a h2 code {
+#content article.ACL a h2 code {
   color: #e02a10;
 }
 
-#content article.NAACL a h2 code b {
+#content article.ACL a h2 code b {
   background: #e02a10;
 }
 
