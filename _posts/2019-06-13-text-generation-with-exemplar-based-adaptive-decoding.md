@@ -4,6 +4,7 @@ path: ''
 title: 'Text Generation with Exemplar-based Adaptive Decoding'
 pdf: 'https://www.aclweb.org/anthology/N19-1263'
 bibtex: https://www.aclweb.org/anthology/papers/N/N19/N19-1263.bib
+appendix: https://www.aclweb.org/anthology/attachments/N19-1263.Supplementary.pdf
 type: 'NAACL 2019'
 layout: nil
 ---
