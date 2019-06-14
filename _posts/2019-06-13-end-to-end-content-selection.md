@@ -15,7 +15,7 @@ layout: nil
 ### Method 
 <img src="/imgs/content-plan-selection.png"/>
 
-### Contributions
+### Contributions\
 
 ### Limitations
 
