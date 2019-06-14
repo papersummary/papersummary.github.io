@@ -528,6 +528,13 @@ code {
   max-width: 1000px;
 }
 
+#content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
 #content .control {
   cursor: pointer;
   font-size: 12px;

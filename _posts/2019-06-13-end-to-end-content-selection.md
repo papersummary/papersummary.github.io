@@ -13,7 +13,9 @@ layout: nil
 ### Idea
 
 ### Method 
+<img src="/imgs/content-plan-selection.png"/>
 
 ### Contributions
 
 ### Limitations
+
