@@ -662,17 +662,61 @@ code {
   white-space: pre;
 }
 
+@media only screen and (max-device-width: 1200px) {
+  /* define mobile specific styles come here */
+  #sidebar { 
+    width: 180px; 
+  }
+
+  #content {
+    padding: 15px;
+    padding-left: 190px;
+    max-width: 1000px;
+  }
+
+  #content  a h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  #sidebar h2 {
+    font-size: 13px;
+  }
+
+  #sidebar ul li a {
+    font-size: 12px;
+    padding: 0 0 12px;
+  }
+
+  #sidebar ul#links {
+    padding: 10px;
+  }
+
+  #sidebar h1 {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+}
 
 @media only screen and (max-device-width: 600px) {
   /* define mobile specific styles come here */
   #sidebar { 
-    width: 120px; 
+    width: 110px; 
   }
 
   #content {
-    padding: 20px;
-    padding-left: 130px;
+    padding-left: 120px;
     max-width: 1000px;
+  }
+
+  #content  a h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
   }
 
 }
