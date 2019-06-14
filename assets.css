@@ -423,6 +423,11 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 a {
+  color: #ddd;
+  text-decoration: none;
+}
+
 h1,
 h2,
 ul,
@@ -444,7 +449,7 @@ code {
 
 /* SIDEBAR */
 #sidebar {
-  background: #191919;
+  background: #a6192e;
   color: #fff;
   float: left;  
   height: 100%;
@@ -456,7 +461,7 @@ code {
 
 
 #sidebar h1 {
-  background: #111;
+  background: #a6192e;
   font-size: 14px;
   margin: 0;
   padding: 20px;
@@ -464,7 +469,7 @@ code {
 }
 
 #sidebar h2 {
-  color: #888;
+  color: rgb(180, 178, 178);
   font-size: 14px;
   margin: 0;
 }
@@ -494,7 +499,7 @@ code {
 }
 
 #sidebar input {
-  background: #111;
+  background: #a0172cf3;
   border: 0;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -535,7 +540,7 @@ code {
 }
 
 #content article > a {
-  background: #333;
+  background: rgb(166, 166, 166);
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -545,6 +550,7 @@ code {
 }
 #content article > a:hover {
   background: #222;
+  background: rgb(77, 77, 77);
   text-decoration: none;
 }
 
