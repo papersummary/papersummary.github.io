@@ -27,4 +27,4 @@ fluency (abstractive) + controlled, realiability (exemplar-based)
 
 ### Limitations
 - No direct learning on how to pick right example (possibly using RL?)
-- They only use only one example as a reference
+- They use only one example as a reference
