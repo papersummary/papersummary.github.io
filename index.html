@@ -11,7 +11,7 @@ layout: default
   <article class='{{ post.type }}'>
     <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{{ post.title }}{% if post.type %}<code><b>{{ post.type }}</b></code> {% endif %}</h2></a>
     <section class='body'>
-      {% if post.pdf %}<a href='{{ post.pdf }}'>[pdf]</a>{% endif %} {% if post.bibtex %}<a href='{{ post.bibtex }}'>[bib]</a>{% endif %} {% if post.code %}<a href='{{ post.code }}'>[code]</a>{% endif %} {% if post.video %}<a href='{{ post.video }}'>[video]</a>{% endif %} {% if post.appendix %}<a href='{{ post.appendix }}'>[appendix]</a>{% endif %}
+      {% if post.pdf %}<a href='{{ post.pdf }}'>[pdf]</a>{% endif %} {% if post.bibtex %}<a href='{{ post.bibtex }}'>[bib]</a>{% endif %} {% if post.code %}<a href='{{ post.code }}'>[code]</a>{% endif %} {% if post.video %}<a href='{{ post.video }}'>[video]</a>{% endif %} {% if post.demo %}<a href='{{ post.demo }}'>[demo]</a>{% endif %} {% if post.appendix %}<a href='{{ post.appendix }}'>[appendix]</a>{% endif %}
       <br><br/>  
       {{ post.content }}
     </section>
