@@ -1,6 +1,6 @@
 {
-    "name": "carte",
-    "description": "Simple API reference",
+    "name": "PaperSummary",
+    "description": "Simple Web Template to Organize Paper Summaries",
     "version": "0.0.1",
     "local": ["boot"],
     "paths": ["lib"]
