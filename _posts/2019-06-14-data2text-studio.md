@@ -23,7 +23,3 @@ layout: nil
 - Interactivity: can preview the generated texts, call the APIs to generate texts, can train their own models by uploading parallel data
 - Interpretability: attributes in generated texts are aligned with inputs
 - Proposed Semi-HMM model, which achives better F1, BLEU score compared to a generative model (Liang et al.,2009)
-
-### Limitations
-- the baseline they compared with seems to be too weak, but it should be fine as it is not the main contribution of this paper
-- it's based on the template-based solution, so large part of interactivity and interpretability cannot be remain intact in neural setting
